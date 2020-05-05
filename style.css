@@ -1,0 +1,56 @@
+body{
+    background-color:rgba(46, 53, 63, 0.329);
+}
+p{
+    line-height: 1.7em;
+}
+header{
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+#id1{
+    padding-left : .5em;
+
+}
+section ol{
+    border : 2px solid black;
+    border-radius: 5px;
+    margin-left: 2em;
+    width : 70%;
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section li{
+    line-height: 1.5em;
+    color : blue;
+    font-size: 1.1em;
+}
+.container{
+    display : flex;
+    justify-content: space-around;
+}
+.btn{
+   margin-top : 3em;
+   margin-left : 44em;
+   padding-left:2em;
+   padding-right: 2em;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   font-family: cursive;
+   background-color: green;
+   border : 2px solid black;
+   border-radius : 3px;
+   
+}
+.btn:hover{
+    background-color: chartreuse;
+    border : 2px solid black;
+}
+    textarea{
+        background-color: rgba
+        (180, 172, 171,0.3);
+        border : 2px solid black;
+    }
+    .result{
+        margin-left: 3em;
+    }

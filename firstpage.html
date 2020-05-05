@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Duplicacy checker</title>
+    <script src="checker.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+      <h1>Duplicacy<sub id ="id1">Checker</sub></h1>
+      </header>
+      <section>
+    <h2>What is this checker?</h2>
+    <p>This <cite>Duplicacy Checker</cite> allows you to check two documents for duplicacy.You can use this to check the the uniqueness of a document and tell if a work done by anyone is auhtntic or not.This checker checks the documents on basis of sentences.It does not check for a particular words in the documents. </p>
+      <h2>Instructions to use this :</h2>
+      <p>
+          <ol>
+              <li>First paste the text of first document in a first box</li>
+              <li>Then paste the text of the second document inthe second box</li>
+              <li>Now press the button below to check</li>
+              <li>You will get the results in the result box</li>
+          </ol>
+      </p>
+     <form class = "container">
+        <div>
+        <h3>Document 1</h3>
+           <textarea name="doc1" id="id2" cols="50" rows="30" title = "Paste document here"></textarea>
+        </div>
+        <div>
+           <h3>Document 2</h3>
+           <textarea name="doc2" id="id3" cols="50" rows="30" title="Paste document here"></textarea>
+        </div>
+     </form>
+     <button class = "btn" onclick="checker();">Check</button>
+     <div class = "result">
+        <h2>Result</h2>
+        <pre>This result box shows the sentences which are same in the above two documents.If the two documents do not match then it shows <cite> All content is unique</cite> in the result box</pre>
+  <textarea name="result" id="id4" cols="70" rows="50"></textarea>
+  </div>
+      </section>
+      
+</body>
+
+
+
+</html>
