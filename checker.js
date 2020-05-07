@@ -14,7 +14,7 @@ if(doc1.length > doc1.length){
     docMaxLength = doc2.length
 }
 if(doc1.length < 50 || doc2.length < 50){
-    alert("Word Limit is 50 or more than 50")
+    return alert("Word Limit is 50 or more than 50")
 }
 while(true){
     for(let i = doc1Count; i <= inc ; i++){
